@@ -290,18 +290,18 @@ textarea:focus, input:focus{
 /* RESPONSIVE BY MEDIA QUERY */
 @media (max-width:900px){
    .typing1{
-    font-size: 130%;
-    width: 33%;
+    font-size: 100%;
+    width: 24%;
    } 
    .typing2{
-    font-size: 120%;
-    width: 83%;
+    font-size: 60%;
+    width: 40%;
    }
    #text-animation img{
     width: 25%;
     position: relative;
-    top: 0.9rem;
-    left:14rem ;
+    top: 10%;
+    left: 40%;
     margin-bottom:4%;
    }
    .help-div,.about{
