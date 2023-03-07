@@ -1,0 +1,335 @@
+body{
+    font-family:'Roboto Mono', monospace;
+    background-color: black;
+    position: relative;
+}
+/* NAV PART */
+.navbar-toggler-icon{
+    color: rgb(6, 211, 50);
+}
+.navbar-brand img{
+    position: absolute;
+    top: -10%;
+    width: 6%;
+    margin: none;
+}
+.Nav-class {
+    margin: 3%;
+    box-shadow: 1px 1px 3.5px 3.5px rgb(4, 128, 0,0.6);
+}
+.Nav-class a{
+    color: rgb(6, 211, 50);
+    font-size: larger;
+}
+#navbarText{
+    padding: 0 0 0 78%;
+}
+/* TEXT ANIMATION */
+#text-animation{
+    color: green;
+}
+.wrapper {
+    height: 20vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing1 {
+    width: 18%;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family:'Roboto-mono' monospace;
+    font-size: 2em;
+  }
+  .typing2 {
+    width: 49%;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family:'Roboto-mono' monospace;
+    font-size: 2em;
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+#text-animation img{
+    width: 11%;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    box-shadow:1px 1px 2px 3px rgb(166, 247, 166);
+}  
+/* TERMINAL PART */
+#terminal{
+    color: rgb(8, 218, 8);
+    margin: 5% 2%;
+    height: 30rem;
+    box-shadow: 0.5px 0.5px 3.5px 3.5px rgba(71, 71, 71, 0.6);
+}
+.terminal-head{
+    color: #fff;
+    background-color: rgb(75, 73, 73);
+    font-size: 2px;
+    box-shadow: 1px 2px rgb(138, 136, 136,0.5);
+}
+.terminal-head h3{
+    padding: 0.4% 0 0.4% 1%;
+    font-size: 0.9rem;
+}
+.comand-intro{
+    padding-left: 0.5%;
+}
+.comand-code{
+    padding-left: 0.5%;
+}
+.comand-code input{
+    width: 80%;
+    color: rgb(6, 192, 6);
+    border: 0;
+    border-style: none;
+    border: none;
+    background-color: rgb(17, 14, 14,0.0);
+}
+textarea:focus, input:focus{
+    outline: none;
+} /* to hide the outline when i going to type*/
+.comand-info{
+    margin: 2% ;
+}
+.comand-info p{
+    margin-bottom: 0.7%;
+}
+/* EDUCATION */
+#education{
+    /* border-width: 5px;
+    border-color: grey; */
+    text-align: center;
+    margin: 5% 2%;
+    background-color: black;
+    width: 95.7%;
+    box-shadow: 0.8px 0.8px 2px 0.7px rgba(68, 243, 68, 0.6);
+    position: absolute;
+    top: 5rem;
+    z-index: +1;
+}
+.edu-btn{
+    background-color: rgb(53, 52, 52);
+}
+.edu-btn button{
+    color: #fff;
+    border: none;
+    font-size:large;
+    padding:0 0 0 98%;
+    background-color: rgb(169, 175, 175,0.0);
+}
+.edu-access{
+
+}
+.edu-access h1{
+    color: red;
+    padding: 1.5% 0 0;
+    font-weight: bolder;
+    text-shadow: 1px 2px  rgb(90, 245, 90,0.5);
+}
+.edu-access h3{
+    color: rgb(6, 226, 6);
+    padding: 1% 0 1%;
+}
+.edu-class{
+    margin: 1% ;
+}
+.card{
+    color: rgb(6, 226, 6);
+    margin: 2% 5% ;
+    background-color: rgb(232, 239, 245,0.0);
+}
+/* SKILL SECTION */
+#skills{
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    top: 5rem;
+    width: 95.7%;
+    z-index: 1;
+    margin: 5% 2%;
+    box-shadow: 0.8px 0.8px 2px 0.7px rgba(68, 243, 68, 0.6);
+}
+.skill-btn{
+    background-color: rgb(53, 52, 52);
+}
+.skill-btn button{
+    color: #fff;
+    border: none;
+    font-size:large;
+    padding:0 0 0 98%;
+    background-color: rgb(169, 175, 175,0.0);
+}
+.card div img{
+    width: 15%;
+}
+.skill-access h1{
+    color: red;
+    padding: 1.5% 0 0;
+    font-weight: bolder;
+    text-shadow: 1px 2px  rgb(90, 245, 90,0.5);
+}
+.skill-access h3{
+    color: rgb(6, 226, 6);
+    padding: 1% 0 1%;
+}
+/* CONTACT SECTION */
+#contact{
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    top: 5rem;
+    width: 95.7%;
+    z-index: 1;
+    margin: 5% 2%;
+    box-shadow: 0.8px 0.8px 2px 0.7px rgba(68, 243, 68, 0.6);
+
+}
+.contact-btn{
+    background-color: rgb(53, 52, 52);
+}
+.contact-btn button{
+    color: #fff;
+    border: none;
+    font-size:large;
+    padding:0 0 0 98%;
+    background-color: rgb(169, 175, 175,0.0);
+}
+.contact-access{
+
+}
+.contact-access h1{
+    color: red;
+    padding: 1.5% 0 0;
+    font-weight: bolder;
+    text-shadow: 1px 2px  rgb(90, 245, 90,0.5);
+}
+.contact-access h3{
+    color: rgb(6, 226, 6);
+    padding: 1% 0 1%;
+}
+
+/* HELP + ABOUT */
+.help-div,.about{
+    color: rgb(3, 180, 3);
+    background-color: rgb(44, 42, 42);
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    width: 40%;
+    line-height: 1;
+}
+.about{
+    width: 60%;
+}
+.help-text {
+    margin: 2% 1.5% 0;
+}
+.about p{
+    display: inline-block;
+    margin: 2% ;
+    line-height: 2;
+}
+.about img{
+    margin:2% 0 0 40%;
+    width: 20%;
+}
+.help-btn,.about-btn{
+    padding: 0.4% 0 0.4% 65%;
+    background-color: rgb(27, 17, 17);
+}
+.about-btn{
+    padding-left: 78%;
+}
+.help-btn button,.about button{
+    color: #fff;
+    border-color: green;
+    background-color:rgb(166, 247, 166,0.0);
+}
+.help-btn button:hover,.about-btn button:hover{
+    border-color: #fff;
+    color: green;
+}
+
+/* RESUME DIV*/
+.resume{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+.resume p{
+    font-size: 60%;
+    padding: 0.5%;
+    width: 60%;
+    margin: 0;
+    color: #fff;
+    box-shadow: 1px 1px 3px 3px rgb(3, 250, 3,0.5);
+    background-color: rgb(68, 68, 68);
+}
+.resume img{
+    width: 60%;
+    box-shadow: 1px 1px 3px 3px rgb(3, 250, 3,0.5);
+}
+
+/* RESPONSIVE BY MEDIA QUERY */
+@media (max-width:900px){
+   .typing1{
+    font-size: 130%;
+    width: 33%;
+   } 
+   .typing2{
+    font-size: 120%;
+    width: 83%;
+   }
+   #text-animation img{
+    width: 25%;
+    position: relative;
+    top: 0.9rem;
+    left:14rem ;
+    margin-bottom:4%;
+   }
+   .help-div,.about{
+        left:2.6%;
+        top: 20%;
+        width: 95%;
+   }
+   .help-btn,.about-btn{
+    padding-left: 60%;
+   }
+   .edu-class,.skills-class1,.skills-class2,.contact-class{
+     padding-left: 20%;
+   }
+   .skills-class2{
+
+   }
+   .comand-code input{
+    width: 40%;
+   }
+   .contact-class{
+
+   }
+   .navbar-brand img{
+    width: 14%;
+    top: -4%;
+   }
+
+   .resume{
+    top: 40%;
+   }
+}

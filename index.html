@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin2</title>
+    <link rel="icon" href="namefavicon (1).ico">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<script src="https://use.fontawesome.com/cd06df0141.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Section id="Nav-section">
+        <div class="Nav-class">
+            <nav class="navbar nav-class navbar-expand-lg navbar-dark ">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand nav-name"><img src="myNameLogo.png" alt="my_logo"></a>
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-list" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link"  onclick="showHelp()">Help</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="showAbout()" >About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" onclick="showContact()">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div> 
+    </Section>
+    <!-- TEXT ANIMATION & PROFILE PHOTO -->
+    <SEction id="text-animation">
+        <div class="wrapper">
+            <div class="typing1">
+                Hi I'm Pintu,
+            </div>
+            <div id="div-ani">
+       <!-- animated text added here using js -->
+            </div>
+        </div>
+        <img src="myDP.jpg" alt="Profile picture">
+    </SEction>
+    <section id="terminal">
+        <div class="terminal-head">
+            <h3></i> Terminal</h3>
+        </div>
+        <div class="comand-intro">
+            <p>Hi,Welcome to my Website [Portfolio 1.0]</p>
+            <p>To know about the command type:help (press enter) in write the command position.Or click the "help" in the right most upper corner</p>
+        </div>
+        <div class="comand-info">
+            <p>To See My Education Section :education (Press Enter)</p>
+            <p>To See My Technical Skill Section :skill (Press Enter)</p>
+            <p>To See My Contact Section :contact (Press Enter)</p>
+            <p>To See My Resume :resume (Press Enter)</p>
+            <p>To Change the text color to white :white (Press Enter)</p>
+        </div>
+        <div class="comand-code ">
+            <span>Write the command <i class="fa fa-brands fa-pinterest"></i>:</span>
+            <input type="text" onfocus="this.value=''" spellcheck="false">
+            <p></p>
+        </div>
+        
+        <!-- <div class="comand-code two"> 
+            <p></p>    
+        </div> -->
+    </section>
+
+    <section id="education">
+        <div class="edu-btn">
+            <button onclick="eduHide()">X</button>
+        </div>
+        <div class="edu-access">
+            <h1>Accessed</h1>
+            <h3>Info about Education</h3>
+        </div>
+        <div class="row edu-class"> 
+            <div class="card col-lg-4 " style="width: 18rem;">
+                  <div><i class="fa fa-regular fa-graduation-cap fa-3x"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Haldia Institute of Technology</h5>
+                  <p class="card-text">B.Tech in CSE( Cyber Secuirity )</p>
+                </div>
+              </div>
+              <div class="card col-lg-4 card-game" style="width: 18rem;">
+                 <div><i class="fa fa-duotone fa-book fa-3x"></i></i></div>
+                <div class="card-body">
+                  <h5 class="card-title"><i>93.4%</i> |XII| WBCHSE</h5>
+                  <p class="card-text">Barjora High School</p>
+                </div>
+              </div>
+              <div class="card col-lg-4 card-game" style="width: 18rem;">
+                <div><i class="fa fa-duotone fa-book fa-3x"></i></div>
+               <div class="card-body">
+                 <h5 class="card-title"><i>90.43%</i> | X | WBBSE</h5>
+                 <p class="card-text">Barjora High School</p>
+               </div>
+             </div>
+        </div> 
+    </section>
+     
+    <section id="skills">
+        <div class="skill-btn">
+            <button onclick="skillHide()">X</button>
+        </div>
+        <div class="skill-access">
+            <h1>Accessed</h1>
+            <h3>Info about Technical Skills</h3>
+        </div>
+        <div class="row skills-class1"> 
+            <div class="card col-lg-4 col-md-6" style="width: 18rem;">
+                 <div><img src="java.png" alt=""></div>
+                <div class="card-body">
+                  <h5 class="card-title">Java</h5>
+                  <p class="card-text">Progmming Language</p>
+                </div>
+              </div>
+              <div class="card col-lg-4 col-md-6" style="width: 18rem;">
+                 <div><img src="python.png" alt=""></div>
+                <div class="card-body">
+                  <h5 class="card-title">Python</h5>
+                  <p class="card-text">Programing Language</p>
+                </div>
+              </div>
+              <div class="card col-lg-4 " style="width: 18rem;">
+                <div><img src="sql-server.png" alt=""></div>
+               <div class="card-body">
+                 <h5 class="card-title">SQL</h5>
+                 <p class="card-text">Database and Management System</p>
+               </div>
+             </div>
+        </div>
+        <div class="row skills-class2"> 
+            <div class="card col-lg-4 " style="width: 18rem;">
+                 <div><img src="html-5.png" alt=""></div>
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card col-lg-4 card-game" style="width: 18rem;">
+                 <div><img src="css-3.png" alt=""></div>
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text"></p>
+                </div>
+              </div>
+              <div class="card col-lg-4 card-game" style="width: 18rem;">
+                <div><img src="java-script.png" alt="" style="background-color: chartreuse;"></div>
+               <div class="card-body">
+                 <h5 class="card-title">Java Script</h5>
+                 <p class="card-text"></p>
+               </div>
+             </div>
+        </div> 
+    </section>
+    <section id="contact">
+        <div class="contact-btn">
+            <button onclick="contactHide()">X</button>
+        </div>
+        <div class="contact-access">
+            <h1>Accessed</h1>
+            <h3>Contact Information</h3>
+        </div>
+        <div class="row contact-class"> 
+            <div class="card col-lg-4 " style="width: 18rem;">
+                 
+                <div class="card-body">
+                  <p><i class="fa fa-solid fa-phone fa-2x"></i></p>  
+                  <p class="card-text">Phone No:6296830922</p>
+                </div>
+              </div>
+              <div class="card col-lg-4 card-game" style="width: 18rem;">
+                 <div></div>
+                <div class="card-body">
+                    <p><i class="fa fa-solid fa-envelope fa-2x"></i></p>
+                  <p class="card-text">Gmail:<i>pin2m09@gmail.com</i></p>
+                </div>
+              </div>
+              <div class="card col-lg-4 " style="width: 18rem;">
+                 
+                <div class="card-body">
+                  <p><i class="fa fa-brands fa-whatsapp fa-2x"></i></p>  
+                  <p class="card-text">WhatsApp no:6296830922</p>
+                </div>
+              </div>
+        </div> 
+    </section>
+
+    <div class="help-div">
+        <div class="help-btn">
+            <button onclick="colorGreen()">Green</button>
+            <button onclick="colorWhite()">White</button>       
+            <button onclick="helpHide()">X</button>       
+        </div>
+        <div class="help-text">
+            <p>To Access My Education Section :education (Press Enter)</p>
+            <p>To Access My Technical Skill Section :skills (Press Enter)</p>
+            <p>To Access My Contact Section :contact (Press Enter)</p>
+            <p>To Access My Resume :resume (Press Enter)</p>
+            <p>To Change the text color to white :White (Press Enter)</p>
+        </div>
+    </div>
+    <div class="about">
+        <div class="about-btn">
+            <button onclick="colorGreenAbout()">Green</button>
+            <button onclick="colorWhiteAbout()">White</button>       
+            <button onclick="aboutHide()">X</button>       
+        </div>
+        <img src="cropMyImg.png" alt="">
+        <p>
+            I am Pintu Mandal currently pursuing a B.Tech course in Computer Science and
+Engineering. I am very greedy for skills. I love to learn and develop skills and gain knowledge about
+technology. I am a diligent, patient, intelligent person. My hobby is to create technology related
+projects. So I want to work on real life projects and gain knowledge from those works.
+        </p>
+    </div>
+
+    <!-- resume -->
+    <div class="resume">
+        <p>For back Double Click The Resume</p>
+        <img src="MyCV.jpg" alt="">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
