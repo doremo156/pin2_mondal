@@ -288,20 +288,21 @@ textarea:focus, input:focus{
 }
 
 /* RESPONSIVE BY MEDIA QUERY */
+
 @media (max-width:900px){
    .typing1{
-    font-size: 80%;
-    width: 60%;
+    font-size: 110%;
+    width: 70%;
    } 
    .typing2{
-    font-size: 90%;
-    width: 50%;
+    font-size: 100%;
+    width: 90%;
    }
    #text-animation img{
     width: 25%;
     position: relative;
     top: 10%;
-    left: 30%;
+    left: 35%;
     margin-bottom:4%;
    }
    .help-div,.about{
