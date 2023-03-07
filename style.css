@@ -290,18 +290,18 @@ textarea:focus, input:focus{
 /* RESPONSIVE BY MEDIA QUERY */
 @media (max-width:900px){
    .typing1{
-    font-size: 40%;
-    width: 10%;
+    font-size: 16%;
+    width: 4%;
    } 
    .typing2{
-    font-size: 30%;
-    width: 20%;
+    font-size: 12%;
+    width: 8%;
    }
    #text-animation img{
     width: 25%;
     position: relative;
     top: 10%;
-    left: 16%;
+    left: 8%;
     margin-bottom:4%;
    }
    .help-div,.about{
@@ -310,10 +310,10 @@ textarea:focus, input:focus{
         width: 95%;
    }
    .help-btn,.about-btn{
-    padding-left: 40%;
+    padding-left: 0%;
    }
    .edu-class,.skills-class1,.skills-class2,.contact-class{
-     padding-left: 20%;
+     padding-left: 6%;
    }
    .skills-class2{
 
